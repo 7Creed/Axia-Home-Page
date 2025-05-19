@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #040d22;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+/* .container {
+  background-color: #040d22;
+  min-height: 95vh;
+} */
+
+.asset--logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border: solid 1px #585151;
+  padding: 8px;
+  border-radius: 25px;
+  background-color: #585151;
+  color: #fff;
+}
+
+.searchSvg {
+  width: 20px;
+  height: 20px;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  background-color: #585151;
+  color: #fff;
+}
+
+.logIn,
+.signUp {
+  font-size: 16px;
+}
+
+.logIn {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.signUp {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.textArea,
+.imageArea {
+  width: 47%;
+}
+
+.textArea h1 {
+  color: #bdd1ff;
+  font-size: 55px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.textArea p {
+  font-size: 24px;
+  margin: 30px 0;
+  color: #fff;
+}
+
+.imageContainer {
+  background-color: green;
+  border-radius: 70%;
+  width: 100%;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  gap: 20px;
+}
+
+.btn--1,
+.btn--2 {
+  padding: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 25px;
+}
+
+.btn--1 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* .btn--2 {
+} */
+
+.img--profile {
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  margin-top: -10px;
+}
+
+.img--profile h4 {
+  color: #bdd1ff;
+  font-size: 20px;
+}
+
+.img--profile p {
+  color: #ffffff;
+}
+
+.arrow {
+  display: flex;
+  justify-content: end;
+}
+
+.arrow--btn {
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.arrow-section {
+  padding: 0 60px;
+}
